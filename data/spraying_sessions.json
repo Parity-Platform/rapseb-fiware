@@ -1,0 +1,1712 @@
+[
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-001",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-001"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-001"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.9
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.39
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:00:00Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:00:24.426154Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 24.4
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-002",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-002"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-002"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.9
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.58
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:05:45.362604Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:06:09.528180Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 24.2
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-003",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-003"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-003"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.1
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.16
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:10:52.252621Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:11:14.009221Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.8
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-004",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-004"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-004"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.0
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.55
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:31:43.310423Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:32:04.765986Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.5
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-005",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-005"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-005"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.6
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.67
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:39:54.567754Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T09:40:20.623040Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.1
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-006",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-006"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-006"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.2
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.26
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:16:21.401009Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:16:43.670891Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 22.3
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-007",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-007"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-007"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.2
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.15
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:21:53.465329Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:22:17.313904Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 23.8
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-008",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-008"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-008"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.2
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.38
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:29:55.739792Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:30:18.653373Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 22.9
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-009",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-009"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-009"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.6
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.6
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:37:33.734589Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:37:56.097142Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 22.4
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-010",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-010"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-010"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.0
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.84
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:43:58.483200Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:44:19.491448Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.0
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-011",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-011"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-011"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.8
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.56
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:48:53.749081Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:49:15.314211Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.6
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-012",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-012"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-012"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.7
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.21
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:56:19.396631Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-16T10:56:40.803526Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.4
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-013",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-013"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-013"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 99.1
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.13
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:15:00Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:15:26.176218Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.2
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-014",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-014"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-014"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.8
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.94
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:21:47.128325Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:22:12.074301Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 24.9
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-015",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-015"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-015"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.4
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.44
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:29:54.637775Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:30:17.856153Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 23.2
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-016",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-016"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-016"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.4
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.21
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:34:24.475946Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:34:50.610621Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.1
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-017",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-017"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-017"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.1
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.29
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:41:11.225945Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:41:38.054675Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.8
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-018",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-018"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-018"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 99.0
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.64
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:46:14.819947Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:46:41.615463Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.8
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-019",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-019"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-019"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.6
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.64
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:54:08.450998Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T09:54:33.578843Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 25.1
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-020",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-020"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-020"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.8
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.62
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:02:02.357405Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:02:23.596967Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.2
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-021",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-021"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-021"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.9
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.61
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:07:58.556588Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:08:23.907807Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 25.4
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-022",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-022"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-022"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.6
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.55
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:15:07.715301Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:15:29.222895Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.5
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-023",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-023"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-023"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.8
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.14
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:23:09.173976Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:23:34.662556Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 25.5
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-024",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-024"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-024"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.3
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.94
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:27:41.054486Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:28:04.449514Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 23.4
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-025",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-025"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-025"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.3
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.21
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:35:55.438240Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:36:22.031702Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.6
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-026",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-026"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-026"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.8
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.98
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:40:55.069975Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-17T10:41:20.028878Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 25.0
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-027",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-027"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-027"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.2
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.11
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T08:45:00Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T08:45:22.729715Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 22.7
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-028",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-028"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-028"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.3
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.31
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:03:47.487569Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:04:09.192319Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 21.7
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-029",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-029"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-029"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.0
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.42
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:10:29.941830Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:10:54.411625Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 24.5
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-030",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-030"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-030"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 4
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.6
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.91
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:17:38.888978Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:18:02.569347Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 23.7
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-031",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-031"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-031"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.6
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.91
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:23:34.172156Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:23:58.114098Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 23.9
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-032",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-032"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-032"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.2
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.75
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:28:12.845216Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:28:39.140746Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.3
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-033",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-033"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-033"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 97.3
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.77
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:33:49.603131Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:34:13.942954Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 24.3
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-034",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-034"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-034"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 98.2
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.49
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:41:08.957767Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:41:33.005350Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 24.0
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-035",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-035"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-035"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.9
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.42
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:48:18.488854Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:48:45.016227Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 26.5
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-036",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-036"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-036"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 99.3
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.33
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:53:08.836829Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:53:31.373874Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 22.5
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-037",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-037"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-037"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 96.6
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 4.36
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:58:10.622190Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T09:58:36.214713Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "completed"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 25.6
+    }
+  },
+  {
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "id": "urn:ngsi-ld:SpraySession:session-038",
+    "type": "SpraySession",
+    "session_id": {
+      "type": "Property",
+      "value": "session-038"
+    },
+    "surface_id": {
+      "type": "Property",
+      "value": "board-038"
+    },
+    "total_passes": {
+      "type": "Property",
+      "value": 1
+    },
+    "target_passes": {
+      "type": "Property",
+      "value": 3
+    },
+    "final_coverage_pct": {
+      "type": "Property",
+      "value": 50.5
+    },
+    "total_epoxy_g": {
+      "type": "Property",
+      "value": 1.37
+    },
+    "start_time": {
+      "type": "Property",
+      "value": "2026-03-18T10:06:31.663209Z"
+    },
+    "end_time": {
+      "type": "Property",
+      "value": "2026-03-18T10:06:41.321594Z"
+    },
+    "status": {
+      "type": "Property",
+      "value": "aborted"
+    },
+    "duration_s": {
+      "type": "Property",
+      "value": 9.7
+    }
+  }
+]

@@ -1,0 +1,57 @@
+version: "3.8"
+
+services:
+  orion-ld:
+    image: fiware/orion-ld:1.6.0
+    container_name: rapseb-orion-ld
+    depends_on:
+      - mongo
+    ports:
+      - "1026:1026"
+    environment:
+      - ORIONLD_MONGO_HOST=mongo
+      - ORIONLD_MONGO_DB=rapseb
+      - ORIONLD_LOG_LEVEL=WARN
+    command: -dbhost mongo -db rapseb -logLevel WARN
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:1026/version"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mongo:
+    image: mongo:6.0
+    container_name: rapseb-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  grafana:
+    image: grafana/grafana:10.4.0
+    container_name: rapseb-grafana
+    depends_on:
+      - orion-ld
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=rapseb
+      - GF_SECURITY_ADMIN_PASSWORD=arise2026
+      - GF_INSTALL_PLUGINS=yesoreyeram-infinity-datasource
+    volumes:
+      - ./data:/var/lib/grafana/data
+      - ./config/grafana/dashboards:/var/lib/grafana/dashboards
+      - ./config/grafana/provisioning:/etc/grafana/provisioning
+      - grafana_data:/var/lib/grafana
+    restart: unless-stopped
+
+volumes:
+  mongo_data:
+  grafana_data:

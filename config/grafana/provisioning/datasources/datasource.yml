@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: CSV Data
+    type: yesoreyeram-infinity-datasource
+    uid: csv-data
+    access: proxy
+    isDefault: true
+    editable: true
