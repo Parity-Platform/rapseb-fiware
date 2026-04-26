@@ -32,7 +32,7 @@
           },
           "type": "csv",
           "source": "url",
-          "url": "file:///var/lib/grafana/data/spray_passes.csv",
+          "url": "http://data-server/spray_passes.csv",
           "parser": "backend",
           "columns": [
             {"selector": "timestamp", "text": "Time", "type": "timestamp"},
@@ -87,7 +87,7 @@
           },
           "type": "csv",
           "source": "url",
-          "url": "file:///var/lib/grafana/data/spraying_sessions.csv",
+          "url": "http://data-server/spraying_sessions.csv",
           "parser": "backend",
           "columns": [
             {"selector": "session_id", "text": "Session", "type": "string"},
@@ -147,7 +147,7 @@
           },
           "type": "csv",
           "source": "url",
-          "url": "file:///var/lib/grafana/data/spraying_sessions.csv",
+          "url": "http://data-server/spraying_sessions.csv",
           "parser": "backend",
           "columns": [
             {"selector": "session_id", "text": "Session", "type": "string"},
@@ -207,7 +207,7 @@
           },
           "type": "csv",
           "source": "url",
-          "url": "file:///var/lib/grafana/data/spraying_sessions.csv",
+          "url": "http://data-server/spraying_sessions.csv",
           "parser": "backend",
           "columns": [
             {"selector": "start_time", "text": "Time", "type": "timestamp"},

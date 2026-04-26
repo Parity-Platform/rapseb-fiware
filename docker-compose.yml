@@ -34,20 +34,26 @@ services:
       timeout: 5s
       retries: 5
 
+  data-server:
+    image: nginx:alpine
+    container_name: rapseb-data-server
+    volumes:
+      - ./data:/usr/share/nginx/html
+    restart: unless-stopped
+
   grafana:
     image: grafana/grafana:10.4.0
     container_name: rapseb-grafana
     depends_on:
       - orion-ld
+      - data-server
     ports:
       - "3000:3000"
     environment:
       - GF_SECURITY_ADMIN_USER=rapseb
       - GF_SECURITY_ADMIN_PASSWORD=arise2026
       - GF_INSTALL_PLUGINS=yesoreyeram-infinity-datasource
-      - GF_PLUGIN_ALLOW_LOCAL_FILE_ACCESS=true
     volumes:
-      - ./data:/var/lib/grafana/data
       - ./config/grafana/dashboards:/var/lib/grafana/dashboards
       - ./config/grafana/provisioning:/etc/grafana/provisioning
       - grafana_data:/var/lib/grafana
