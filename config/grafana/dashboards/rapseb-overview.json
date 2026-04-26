@@ -9,8 +9,8 @@
   "timezone": "UTC",
   "refresh": "off",
   "time": {
-    "from": "now-7d",
-    "to": "now"
+    "from": "2026-03-15T00:00:00.000Z",
+    "to": "2026-03-19T00:00:00.000Z"
   },
   "panels": [
     {
@@ -113,6 +113,7 @@
         "overrides": []
       },
       "options": {
+        "xField": "Session",
         "barRadius": 0,
         "barWidth": 0.97,
         "fullHighlight": false,
@@ -173,6 +174,7 @@
         "overrides": []
       },
       "options": {
+        "xField": "Session",
         "barRadius": 0,
         "barWidth": 0.97,
         "fullHighlight": false,
