@@ -33,7 +33,11 @@
           "type": "csv",
           "source": "url",
           "url": "file:///var/lib/grafana/data/spray_passes.csv",
-          "parser": "backend"
+          "parser": "backend",
+          "columns": [
+            {"selector": "timestamp", "text": "Time", "type": "timestamp"},
+            {"selector": "coverage_pct", "text": "Coverage %", "type": "number"}
+          ]
         }
       ],
       "fieldConfig": {
@@ -84,7 +88,11 @@
           "type": "csv",
           "source": "url",
           "url": "file:///var/lib/grafana/data/spraying_sessions.csv",
-          "parser": "backend"
+          "parser": "backend",
+          "columns": [
+            {"selector": "session_id", "text": "Session", "type": "string"},
+            {"selector": "total_epoxy_g", "text": "Epoxy (g)", "type": "number"}
+          ]
         }
       ],
       "fieldConfig": {
@@ -140,7 +148,11 @@
           "type": "csv",
           "source": "url",
           "url": "file:///var/lib/grafana/data/spraying_sessions.csv",
-          "parser": "backend"
+          "parser": "backend",
+          "columns": [
+            {"selector": "session_id", "text": "Session", "type": "string"},
+            {"selector": "total_passes", "text": "Passes", "type": "number"}
+          ]
         }
       ],
       "fieldConfig": {
@@ -196,7 +208,11 @@
           "type": "csv",
           "source": "url",
           "url": "file:///var/lib/grafana/data/spraying_sessions.csv",
-          "parser": "backend"
+          "parser": "backend",
+          "columns": [
+            {"selector": "start_time", "text": "Time", "type": "timestamp"},
+            {"selector": "duration_s", "text": "Duration (s)", "type": "number"}
+          ]
         }
       ],
       "fieldConfig": {
