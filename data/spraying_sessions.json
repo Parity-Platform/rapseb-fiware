@@ -7,6 +7,10 @@
       "type": "Property",
       "value": "session-001"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 01"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-001"
@@ -51,6 +55,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-002"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 02"
     },
     "surface_id": {
       "type": "Property",
@@ -97,6 +105,10 @@
       "type": "Property",
       "value": "session-003"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 03"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-003"
@@ -141,6 +153,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-004"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 04"
     },
     "surface_id": {
       "type": "Property",
@@ -187,6 +203,10 @@
       "type": "Property",
       "value": "session-005"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 05"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-005"
@@ -231,6 +251,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-006"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 06"
     },
     "surface_id": {
       "type": "Property",
@@ -277,6 +301,10 @@
       "type": "Property",
       "value": "session-007"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 07"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-007"
@@ -321,6 +349,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-008"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 08"
     },
     "surface_id": {
       "type": "Property",
@@ -367,6 +399,10 @@
       "type": "Property",
       "value": "session-009"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 09"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-009"
@@ -411,6 +447,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-010"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 10"
     },
     "surface_id": {
       "type": "Property",
@@ -457,6 +497,10 @@
       "type": "Property",
       "value": "session-011"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 11"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-011"
@@ -501,6 +545,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-012"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 12"
     },
     "surface_id": {
       "type": "Property",
@@ -547,6 +595,10 @@
       "type": "Property",
       "value": "session-013"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 13"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-013"
@@ -591,6 +643,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-014"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 14"
     },
     "surface_id": {
       "type": "Property",
@@ -637,6 +693,10 @@
       "type": "Property",
       "value": "session-015"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 15"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-015"
@@ -681,6 +741,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-016"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 16"
     },
     "surface_id": {
       "type": "Property",
@@ -727,6 +791,10 @@
       "type": "Property",
       "value": "session-017"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 17"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-017"
@@ -771,6 +839,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-018"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 18"
     },
     "surface_id": {
       "type": "Property",
@@ -817,6 +889,10 @@
       "type": "Property",
       "value": "session-019"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 19"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-019"
@@ -861,6 +937,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-020"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 20"
     },
     "surface_id": {
       "type": "Property",
@@ -907,6 +987,10 @@
       "type": "Property",
       "value": "session-021"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 21"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-021"
@@ -951,6 +1035,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-022"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 22"
     },
     "surface_id": {
       "type": "Property",
@@ -997,6 +1085,10 @@
       "type": "Property",
       "value": "session-023"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 23"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-023"
@@ -1041,6 +1133,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-024"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 24"
     },
     "surface_id": {
       "type": "Property",
@@ -1087,6 +1183,10 @@
       "type": "Property",
       "value": "session-025"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 25"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-025"
@@ -1131,6 +1231,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-026"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 26"
     },
     "surface_id": {
       "type": "Property",
@@ -1177,6 +1281,10 @@
       "type": "Property",
       "value": "session-027"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 27"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-027"
@@ -1221,6 +1329,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-028"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 28"
     },
     "surface_id": {
       "type": "Property",
@@ -1267,6 +1379,10 @@
       "type": "Property",
       "value": "session-029"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 29"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-029"
@@ -1311,6 +1427,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-030"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 30"
     },
     "surface_id": {
       "type": "Property",
@@ -1357,6 +1477,10 @@
       "type": "Property",
       "value": "session-031"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 31"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-031"
@@ -1401,6 +1525,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-032"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 32"
     },
     "surface_id": {
       "type": "Property",
@@ -1447,6 +1575,10 @@
       "type": "Property",
       "value": "session-033"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 33"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-033"
@@ -1491,6 +1623,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-034"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 34"
     },
     "surface_id": {
       "type": "Property",
@@ -1537,6 +1673,10 @@
       "type": "Property",
       "value": "session-035"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 35"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-035"
@@ -1581,6 +1721,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-036"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 36"
     },
     "surface_id": {
       "type": "Property",
@@ -1627,6 +1771,10 @@
       "type": "Property",
       "value": "session-037"
     },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 37"
+    },
     "surface_id": {
       "type": "Property",
       "value": "board-037"
@@ -1671,6 +1819,10 @@
     "session_id": {
       "type": "Property",
       "value": "session-038"
+    },
+    "session_label": {
+      "type": "Property",
+      "value": "Test 38"
     },
     "surface_id": {
       "type": "Property",

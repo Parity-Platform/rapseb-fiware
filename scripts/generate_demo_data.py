@@ -39,6 +39,7 @@ def generate_sessions():
             end = t + timedelta(seconds=dur)
             sessions.append({
                 "session_id": f"session-{board_num:03d}",
+                "session_label": f"Test {board_num:02d}",
                 "surface_id": f"board-{board_num:03d}",
                 "total_passes": actual,
                 "target_passes": target,

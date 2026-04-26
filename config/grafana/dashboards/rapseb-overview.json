@@ -15,90 +15,70 @@
   "panels": [
     {
       "id": 1,
-      "title": "Coverage per Pass",
-      "type": "timeseries",
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 0,
-        "y": 0
-      },
+      "title": "Final Coverage per Test",
+      "type": "barchart",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
       "targets": [
         {
           "refId": "A",
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "csv-data"
-          },
+          "datasource": { "type": "yesoreyeram-infinity-datasource", "uid": "csv-data" },
           "type": "csv",
           "source": "url",
-          "url": "http://data-server/spray_passes.csv",
-          "url_options": {
-            "method": "GET",
-            "data": ""
-          },
+          "url": "http://data-server/spraying_sessions.csv",
+          "url_options": { "method": "GET", "data": "" },
           "parser": "backend",
           "columns": [
-            {"selector": "timestamp", "text": "Time", "type": "timestamp"},
-            {"selector": "coverage_pct", "text": "Coverage %", "type": "number"}
+            {"selector": "session_label", "text": "Test", "type": "string"},
+            {"selector": "final_coverage_pct", "text": "Coverage %", "type": "number"}
           ]
         }
       ],
       "fieldConfig": {
         "defaults": {
           "custom": {
-            "drawStyle": "line",
-            "lineWidth": 2,
-            "fillOpacity": 10
-          },
-          "color": {
-            "mode": "fixed",
-            "fixedColor": "#1F60C4"
+            "hideFrom": { "tooltip": false, "viz": false, "legend": false }
           },
           "unit": "percent",
           "min": 0,
-          "max": 100
+          "max": 100,
+          "color": { "mode": "thresholds" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {"color": "red", "value": null},
+              {"color": "green", "value": 95}
+            ]
+          }
         },
         "overrides": []
       },
       "options": {
-        "tooltip": {
-          "mode": "multi"
-        },
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        }
+        "xField": "Test",
+        "barRadius": 0,
+        "barWidth": 0.8,
+        "fullHighlight": false,
+        "groupWidth": 0.7,
+        "legend": { "calcs": [], "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "single" },
+        "xTickLabelRotation": -45
       }
     },
     {
       "id": 2,
-      "title": "Epoxy Usage per Session",
+      "title": "Epoxy Usage per Test",
       "type": "barchart",
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 12,
-        "y": 0
-      },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
       "targets": [
         {
           "refId": "A",
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "csv-data"
-          },
+          "datasource": { "type": "yesoreyeram-infinity-datasource", "uid": "csv-data" },
           "type": "csv",
           "source": "url",
           "url": "http://data-server/spraying_sessions.csv",
-          "url_options": {
-            "method": "GET",
-            "data": ""
-          },
+          "url_options": { "method": "GET", "data": "" },
           "parser": "backend",
           "columns": [
-            {"selector": "session_id", "text": "Session", "type": "string"},
+            {"selector": "session_label", "text": "Test", "type": "string"},
             {"selector": "total_epoxy_g", "text": "Epoxy (g)", "type": "number"}
           ]
         }
@@ -106,64 +86,40 @@
       "fieldConfig": {
         "defaults": {
           "custom": {
-            "hideFrom": {
-              "tooltip": false,
-              "viz": false,
-              "legend": false
-            }
+            "hideFrom": { "tooltip": false, "viz": false, "legend": false }
           },
-          "color": {
-            "mode": "fixed",
-            "fixedColor": "#37872D"
-          },
+          "color": { "mode": "fixed", "fixedColor": "#37872D" },
           "unit": "massg"
         },
         "overrides": []
       },
       "options": {
-        "xField": "Session",
+        "xField": "Test",
         "barRadius": 0,
-        "barWidth": 0.97,
+        "barWidth": 0.8,
         "fullHighlight": false,
         "groupWidth": 0.7,
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "multi"
-        },
-        "xTickLabelRotation": 0
+        "legend": { "calcs": [], "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "single" },
+        "xTickLabelRotation": -45
       }
     },
     {
       "id": 3,
-      "title": "Passes Required per Board",
+      "title": "Passes Required per Test",
       "type": "barchart",
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 0,
-        "y": 8
-      },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
       "targets": [
         {
           "refId": "A",
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "csv-data"
-          },
+          "datasource": { "type": "yesoreyeram-infinity-datasource", "uid": "csv-data" },
           "type": "csv",
           "source": "url",
           "url": "http://data-server/spraying_sessions.csv",
-          "url_options": {
-            "method": "GET",
-            "data": ""
-          },
+          "url_options": { "method": "GET", "data": "" },
           "parser": "backend",
           "columns": [
-            {"selector": "session_id", "text": "Session", "type": "string"},
+            {"selector": "session_label", "text": "Test", "type": "string"},
             {"selector": "total_passes", "text": "Passes", "type": "number"}
           ]
         }
@@ -171,64 +127,40 @@
       "fieldConfig": {
         "defaults": {
           "custom": {
-            "hideFrom": {
-              "tooltip": false,
-              "viz": false,
-              "legend": false
-            }
+            "hideFrom": { "tooltip": false, "viz": false, "legend": false }
           },
-          "color": {
-            "mode": "fixed",
-            "fixedColor": "#8F3BB8"
-          },
+          "color": { "mode": "fixed", "fixedColor": "#8F3BB8" },
           "unit": "short"
         },
         "overrides": []
       },
       "options": {
-        "xField": "Session",
+        "xField": "Test",
         "barRadius": 0,
-        "barWidth": 0.97,
+        "barWidth": 0.8,
         "fullHighlight": false,
         "groupWidth": 0.7,
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "multi"
-        },
-        "xTickLabelRotation": 0
+        "legend": { "calcs": [], "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "single" },
+        "xTickLabelRotation": -45
       }
     },
     {
       "id": 4,
-      "title": "Session Duration",
-      "type": "timeseries",
-      "gridPos": {
-        "h": 8,
-        "w": 12,
-        "x": 12,
-        "y": 8
-      },
+      "title": "Session Duration per Test",
+      "type": "barchart",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
       "targets": [
         {
           "refId": "A",
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "csv-data"
-          },
+          "datasource": { "type": "yesoreyeram-infinity-datasource", "uid": "csv-data" },
           "type": "csv",
           "source": "url",
           "url": "http://data-server/spraying_sessions.csv",
-          "url_options": {
-            "method": "GET",
-            "data": ""
-          },
+          "url_options": { "method": "GET", "data": "" },
           "parser": "backend",
           "columns": [
-            {"selector": "start_time", "text": "Time", "type": "timestamp"},
+            {"selector": "session_label", "text": "Test", "type": "string"},
             {"selector": "duration_s", "text": "Duration (s)", "type": "number"}
           ]
         }
@@ -236,36 +168,27 @@
       "fieldConfig": {
         "defaults": {
           "custom": {
-            "drawStyle": "line",
-            "lineWidth": 2,
-            "fillOpacity": 10
+            "hideFrom": { "tooltip": false, "viz": false, "legend": false }
           },
-          "color": {
-            "mode": "fixed",
-            "fixedColor": "#FF9830"
-          },
+          "color": { "mode": "fixed", "fixedColor": "#FF9830" },
           "unit": "s"
         },
         "overrides": []
       },
       "options": {
-        "tooltip": {
-          "mode": "multi"
-        },
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        }
+        "xField": "Test",
+        "barRadius": 0,
+        "barWidth": 0.8,
+        "fullHighlight": false,
+        "groupWidth": 0.7,
+        "legend": { "calcs": [], "displayMode": "list", "placement": "bottom" },
+        "tooltip": { "mode": "single" },
+        "xTickLabelRotation": -45
       }
     }
   ],
-  "templating": {
-    "list": []
-  },
-  "annotations": {
-    "list": []
-  },
+  "templating": { "list": [] },
+  "annotations": { "list": [] },
   "schemaVersion": 27,
   "version": 0
 }
